@@ -243,9 +243,40 @@ body {
     height: 120px;
     font-size: 20px;
     line-height: 30px;
+    margin-top: 27px;
   }
 }
 
-.shorten-time{
+.shorten-time {
   @extend .control-localization;
+  margin-top: 250px;
+  p {
+    width: 491px;
+    height: 120px;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 27px;
+  }
+}
+
+.ensure-quality {
+  @extend .shorten-time;
+  p {
+    width: 491px;
+    height: 120px;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 27px;
+  }
+}
+
+.less-work {
+  @extend .shorten-time;
+  p {
+    width: 491px;
+    height: 120px;
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 27px;
+  }
 }

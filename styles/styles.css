@@ -181,7 +181,7 @@ body {
   padding-bottom: 10px !important;
 }
 
-.control-localization, .shorten-time {
+.control-localization, .shorten-time, .less-work, .ensure-quality {
   width: 100%;
   height: 632px;
   display: flex;
@@ -190,15 +190,43 @@ body {
   margin-top: 90px;
   gap: 165px;
 }
-.control-localization h1, .shorten-time h1 {
+.control-localization h1, .shorten-time h1, .less-work h1, .ensure-quality h1 {
   width: 493px;
   height: 120px;
   font-size: 50px;
   line-height: 60px;
 }
-.control-localization p, .shorten-time p {
+.control-localization p, .shorten-time p, .less-work p, .ensure-quality p {
   width: 491px;
   height: 120px;
   font-size: 20px;
   line-height: 30px;
+  margin-top: 27px;
+}
+
+.shorten-time, .less-work, .ensure-quality {
+  margin-top: 250px;
+}
+.shorten-time p, .less-work p, .ensure-quality p {
+  width: 491px;
+  height: 120px;
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 27px;
+}
+
+.ensure-quality p {
+  width: 491px;
+  height: 120px;
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 27px;
+}
+
+.less-work p {
+  width: 491px;
+  height: 120px;
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 27px;
 }/*# sourceMappingURL=styles.css.map */
