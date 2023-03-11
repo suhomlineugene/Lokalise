@@ -173,4 +173,22 @@ body {
       line-height: 60px;
     }
   }
+
+  aside {
+    margin-top: 82px;
+    .smicons,
+    .smicons li {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .smicons {
+      display: flex;
+      justify-content: center;
+    }
+    .smicons li {
+      margin: 5px;
+    }
+  }
 }

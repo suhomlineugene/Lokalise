@@ -149,4 +149,20 @@ body {
   height: 100%;
   font-size: 50px;
   line-height: 60px;
+}
+.companies aside {
+  margin-top: 82px;
+}
+.companies aside .smicons,
+.companies aside .smicons li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.companies aside .smicons {
+  display: flex;
+  justify-content: center;
+}
+.companies aside .smicons li {
+  margin: 5px;
 }/*# sourceMappingURL=styles.css.map */
