@@ -83,6 +83,14 @@ body {
 .btn-basic {
   width: 120px;
   height: 45px;
+  color: black;
+}
+
+.btn-basic-orange {
+  @extend .btn-basic;
+  background: #ff6336;
+  border: none;
+  color: white;
 }
 
 .header-btn {
@@ -92,7 +100,53 @@ body {
 }
 
 .header-btn-orange {
-  @extend .btn-basic;
-  background: #FF6336;
-  border: none;
+  @extend .btn-basic-orange;
+}
+
+.main {
+  height: auto;
+  width: 100%;
+  display: flex;
+  padding-top: 129px;
+  padding-bottom: 172px;
+  padding-left: 75px;
+}
+
+.main-text {
+  flex: 1;
+  width: 50%;
+  h1 {
+    height: 210px;
+    line-height: 70px;
+    font-size: 65px;
+    width: 552px;
+  }
+  p {
+    width: 471px;
+    height: 140px;
+    font-size: 25px;
+  }
+  .try-all {
+    margin-top: 25px;
+    font-size: 15px;
+    width: 369px;
+    height: 25px;
+  }
+
+  .main-btn-orange {
+    @extend .btn-basic-orange;
+    width: 160px;
+    height: 60px;
+  }
+  .main-btn {
+    @extend .btn-basic;
+    width: 160px;
+    height: 60px;
+    margin-left: 10px;
+  }
+}
+
+.main-image {
+  width: 50%;
+  margin-top: 22px;
 }
