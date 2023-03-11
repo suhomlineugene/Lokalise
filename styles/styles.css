@@ -153,6 +153,7 @@ body {
 }
 .companies aside {
   margin-top: 82px;
+  width: 100%;
 }
 .companies aside .smicons,
 .companies aside .smicons li {
@@ -165,5 +166,5 @@ body {
   justify-content: center;
 }
 .companies aside .smicons li {
-  margin: 5px;
+  margin: 50px;
 }/*# sourceMappingURL=styles.css.map */
