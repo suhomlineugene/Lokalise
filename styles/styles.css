@@ -151,20 +151,54 @@ body {
   font-size: 50px;
   line-height: 60px;
 }
-.companies aside {
-  margin-top: 82px;
-  width: 100%;
+.companies .company-icons {
+  margin-top: 70px;
+  /* Font Awesome icons */
 }
-.companies aside .smicons,
-.companies aside .smicons li {
+.companies .company-icons ul.social-set {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
   margin: 0;
   padding: 0;
-  list-style: none;
+  height: auto;
+  width: auto;
+  gap: 100px;
 }
-.companies aside .smicons {
+.companies .company-icons ul.social-set li {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
-.companies aside .smicons li {
-  margin: 50px;
+.companies .company-icons a.sociali {
+  font-size: 2em;
+  line-height: 1.2em;
+  padding: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px !important;
+  padding-bottom: 10px !important;
+}
+
+.control-localization, .shorten-time {
+  width: 100%;
+  height: 632px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 90px;
+  gap: 165px;
+}
+.control-localization h1, .shorten-time h1 {
+  width: 493px;
+  height: 120px;
+  font-size: 50px;
+  line-height: 60px;
+}
+.control-localization p, .shorten-time p {
+  width: 491px;
+  height: 120px;
+  font-size: 20px;
+  line-height: 30px;
 }/*# sourceMappingURL=styles.css.map */

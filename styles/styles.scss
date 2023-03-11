@@ -175,22 +175,77 @@ body {
     }
   }
 
-  aside {
-    margin-top: 82px;
-    width:100%;
-    .smicons,
-    .smicons li {
+  //companies icons styles
+  .company-icons {
+    margin-top: 70px;
+
+    ul.social-set {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+      flex-direction: row;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      list-style: none;
       margin: 0;
       padding: 0;
-      list-style: none;
+      height: auto;
+      width: auto;
+      gap: 100px;
     }
-
-    .smicons {
+    ul.social-set li {
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
       justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
     }
-    .smicons li {
-      margin: 50px;
+    /* Font Awesome icons */
+    a.sociali {
+      font-size: 2em;
+      line-height: 1.2em;
+      padding: 10px;
+      margin-right: 10px;
+      margin-bottom: 10px !important;
+      padding-bottom: 10px !important;
     }
   }
+}
+
+.control-localization {
+  width: 100%;
+  height: 632px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 90px;
+  gap: 165px;
+
+  h1 {
+    width: 493px;
+    height: 120px;
+    font-size: 50px;
+    line-height: 60px;
+  }
+
+  p {
+    width: 491px;
+    height: 120px;
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+
+.shorten-time{
+  @extend .control-localization;
 }
