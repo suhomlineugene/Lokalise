@@ -3,6 +3,7 @@
 body {
   font-family: sans-serif;
   overflow-x: hidden;
+  width: 100%;
 }
 
 @media (max-width: 600px) {
@@ -446,5 +447,81 @@ body {
     background-color: $black;
     color: $white;
     width: 160px;
+  }
+}
+.footer {
+  background: #eee;
+  padding: 92px 0 48px;
+
+  .container {
+    max-width: 1330px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  .columns {
+    display: flex;
+    padding: 0 0 94px;
+    margin: 0 0 48px;
+    border-bottom: 1px solid #000;
+
+    .col:first-child {
+      flex: 0 0 370px;
+      width: 370px;
+      padding: 0 70px 0 0;
+      margin: 0 70px 0 0;
+      position: relative;
+      .title {
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 50px;
+        display: block;
+        margin: 0 0 28px;
+      }
+
+      .frame {
+        max-width: 300px;
+        margin: 0 0 31px;
+      }
+
+      .foot-logo {
+        img {
+          margin: 0 0 6px;
+          height: 32px;
+          width: 80px;
+        }
+      }
+
+      .case {
+        font-size: 20px;
+        line-height: 30px;
+        margin: 0 0 20px;
+      }
+
+      .more {
+        font-size: 20px;
+        line-height: 26px;
+        font-weight: 600;
+        color: #000;
+        position: relative;
+        display: inline-block;
+        padding-right: 28px;
+      }
+
+      col:first-child:after {
+        position: absolute;
+        top: 8px;
+        right: 0;
+        bottom: 6px;
+        content: "";
+        background: #000;
+        width: 1px;
+      }
+    }
+
+    .col:last-child {
+      flex: 1 1 100%;
+      width: 100%;
+    }
   }
 }
