@@ -397,3 +397,54 @@ body {
     }
   }
 }
+
+.integrate {
+  margin: 0 auto;
+  padding: 100px 0;
+  max-width: 1330px;
+  text-align: center;
+  h1 {
+    margin: 0 auto;
+    height: 150px;
+    width: 791px;
+    font-size: 65px;
+    line-height: 75px;
+  }
+  p {
+    margin: 16px 0 90px;
+    font-size: 25px;
+  }
+
+  .integrate-button {
+    @extend .btn-basic-orange;
+    width: 153px;
+    margin-top: 32px;
+  }
+}
+
+.made-easy {
+  margin: 0 auto;
+  padding: 100px 0;
+  width: 100%;
+  text-align: center;
+  background-color: $lightorange;
+
+  h1 {
+    margin: 0 auto;
+    height: 150px;
+    width: 784px;
+    font-size: 65px;
+    line-height: 75px;
+  }
+  p {
+    margin: 16px 0 90px;
+    font-size: 25px;
+  }
+
+  .black-button {
+    @extend .btn-basic;
+    background-color: $black;
+    color: $white;
+    width: 160px;
+  }
+}

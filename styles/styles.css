@@ -69,13 +69,13 @@ body {
   text-transform: uppercase;
 }
 
-.btn-basic, .main-text .main-btn, .header-btn, .btn-basic-orange, .main-text .main-btn-orange, .header-btn-orange {
+.btn-basic, .made-easy .black-button, .main-text .main-btn, .header-btn, .btn-basic-orange, .integrate .integrate-button, .main-text .main-btn-orange, .header-btn-orange {
   width: 120px;
   height: 45px;
   color: black;
 }
 
-.btn-basic-orange, .main-text .main-btn-orange, .header-btn-orange {
+.btn-basic-orange, .integrate .integrate-button, .main-text .main-btn-orange, .header-btn-orange {
   background: #ff6336;
   border: none;
   color: white;
@@ -342,4 +342,50 @@ body {
 }
 .review .review-image img {
   margin-top: 53px;
+}
+
+.integrate {
+  margin: 0 auto;
+  padding: 100px 0;
+  max-width: 1330px;
+  text-align: center;
+}
+.integrate h1 {
+  margin: 0 auto;
+  height: 150px;
+  width: 791px;
+  font-size: 65px;
+  line-height: 75px;
+}
+.integrate p {
+  margin: 16px 0 90px;
+  font-size: 25px;
+}
+.integrate .integrate-button {
+  width: 153px;
+  margin-top: 32px;
+}
+
+.made-easy {
+  margin: 0 auto;
+  padding: 100px 0;
+  width: 100%;
+  text-align: center;
+  background-color: #ff9c7d;
+}
+.made-easy h1 {
+  margin: 0 auto;
+  height: 150px;
+  width: 784px;
+  font-size: 65px;
+  line-height: 75px;
+}
+.made-easy p {
+  margin: 16px 0 90px;
+  font-size: 25px;
+}
+.made-easy .black-button {
+  background-color: black;
+  color: white;
+  width: 160px;
 }/*# sourceMappingURL=styles.css.map */
