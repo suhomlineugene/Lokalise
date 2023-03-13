@@ -453,6 +453,79 @@ body {
   background: #eee;
   padding: 92px 0 48px;
 
+  .lokalize-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 76px 0 0;
+
+    .rights {
+      font-size: 12px;
+      line-height: 15px;
+    }
+
+    .logo-container {
+      display: flex;
+      align-items: center;
+
+      .logo {
+        display: block;
+        background: url(../images/icons/footer-logo.svg) 0 0 no-repeat;
+        width: 90px;
+        height: 21px;
+
+        margin: 0 20px 0 0;
+      }
+
+      .logo-text {
+        font-size: 12px;
+        line-height: 15px;
+        font-style: normal;
+      }
+    }
+  }
+
+  .footer-nav {
+    color: #000;
+    padding: 5px 0 33px;
+
+    ul {
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+      font-size: 20px;
+      line-height: 25px;
+
+      li {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 25px;
+        flex: 0 1 22%;
+        width: 22%;
+
+        ul {
+          padding: 21px 0 0;
+          display: block;
+          font-size: 15px;
+          line-height: 15px;
+        }
+
+        li {
+          width: 100%;
+          font-size: 15px;
+          line-height: 15px;
+          margin: 0 0 15px;
+          font-weight: 400;
+
+          a {
+            color: #000;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+
   .container {
     max-width: 1330px;
     margin: 0 auto;
